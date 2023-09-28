@@ -1,9 +1,7 @@
 name: Scheduled Job
 
 on:
-  schedule:
-    - cron: '0 */2 * * *'     # Schedule every 2 hours
-    - cron: '24 18 * * *'    # Schedule at 11:50 PM
+   
   workflow_dispatch:
 
 jobs:
